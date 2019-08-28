@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean mWaitingForFutureDays = false;
     private AlertDialog mDeviationDialog;
     private AlertDialog mErrorDialog;
-    private static final String TAG ="## My Info ##";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
     // in the UI.
     private void processData() {
 
-        Log.i(TAG,"mWaitingFroFutureDays= " +mWaitingForFutureDays);
         // Leave progress bar on if user pressed standard deviation button before we got here.
         if ( ! mWaitingForFutureDays) {
             mPbLoading.setVisibility(View.INVISIBLE);
