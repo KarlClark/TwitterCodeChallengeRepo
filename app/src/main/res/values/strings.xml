@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tweather</string>
+    <string name="current_temperature">Current temperature:</string>
+    <string name="temperature">%1$.2f °C / %2$.2f °F</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="five_day">Five Day</string>
+    <string name="location">Weather for %1$s</string>
+    <string name="wind">Wind %1$.2f mph</string>
+    <string name="deviation">5 day\ndeviation</string>
+    <string name="dialog_deviation">%1$d Day Temperature Deviation</string>
+    <string name="error">Error downloading weather data.</string>
+    <string name="error_detail">%1$s\nRetry?</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>
